@@ -3,7 +3,7 @@
 
 //Creates an array named musketeers containing values "Athos", "Porthos" and "Aramis".
 
-const musketers = ["Athos","Portos","Aramis"];
+//const musketers = ["Athos","Portos","Aramis"];
 
 //Shows each array element using a for loop.
 
@@ -13,22 +13,35 @@ const musketers = ["Athos","Portos","Aramis"];
  
 //Adds the "D'Artagnan" value to the array.
 
-musketers.unshift("D'Artagnan")
-// console.log(musketers[0]);
-// console.log(musketers.length)
-
-//Shows each array element using the forEach() method.
-    
-// musketers.forEach(ele =>{
+// musketers.unshift("D'Artagnan")
+// //Shows each array element using the forEach() method.
+//     musketers.forEach(ele =>{
 //     console.log(ele)
 // });
 //Remove poor Aramis.
-musketers.pop();
-// console.log(musketers)
+//     musketers.pop();
+//     console.log(musketers)
 
-//Shows each array element using a for-of loop.
+// //Shows each array element using a for-of loop.
 
-const musketeers = ["Athos","Portos","Aramis","D'Artagnan"];
-for (const musketeer of musketeers) {
-    console.log(musketeer)
+// const musketeers = ["Athos","Portos","Aramis","D'Artagnan"];
+// for (const musketeer of musketeers) {
+//     console.log(musketeer)
+// }
+
+//Number of days in a month
+//Write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are excluded. Incorrect inputs must be taken into account.
+
+// Following second
+// Write a program that asks for a time under the form of three information (hours, minutes, seconds). The program calculates and shows the time one second after. Incorrect inputs must be taken into account.
+//   
+let number = 1;
+while (number <= 2) {
+    console.log(number);
+    number++;
+}
+
+let num;
+for (number = 1; number<= 6; number++) {
+    console.log(num)
 }
